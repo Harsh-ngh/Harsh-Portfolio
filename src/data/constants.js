@@ -6,6 +6,11 @@ import navjeevanImage from '../images/navjeevan.png';
 import jobireImage from '../images/jobire.png';
 import portfolioImage from '../images/portfolio.png';
 import helpingHandsImage from '../images/helpinghands.png';
+import chhotu from '../images/chhotu.png'
+import HeroImage from '../images/HeroImage.jpg'
+import birla from '../images/birla.png'
+import iot from '../images/iot.jpg'
+
 
 export const Bio = {
   name: "Harsh Singh",
@@ -134,7 +139,7 @@ export const education = [
     img: chbsImage,
     school: "Central Hindu Boys' School, Varanasi",
     grade: "94.2%",
-    desc: "I completed my class 12 high school education at Central Hindu Boys' School, Varanasi, where I studied Mathematics with Science.",
+    desc: "I completed my 12th standard education at Central Hindu Boys' School, Varanasi, where I studied Mathematics with Science.",
     degree: "CBSE(XII), Mathematics",
   },
   {
@@ -142,7 +147,7 @@ export const education = [
     img: navjeevanImage,
     school: "Navjeevan English School , Ballia",
     grade: "95.0%",
-    desc: "I completed my class 10 education at Navjeevan English School, Ballia where I studied Science with Mathematics.",
+    desc: "I completed my 10th education at Navjeevan English School, Ballia where I studied Science with Mathematics.",
     degree: "CBSE(X)",
   },
 ];
@@ -155,6 +160,13 @@ export const projects = [
     description:
       "Helping Hands is a web application which develpoed during my internship at The Sparks Foundation.This website aims to collect a donation of 100 RS through Razorpay dashboard.Here users can track their payments done to the organisation in real time as they recieve a payment receipt in realtime through mail.",
     image: helpingHandsImage,
+    member: [
+      {
+        name: "Harsh Singh",
+        img: HeroImage,
+       
+        },
+      ],
     tags: [
       "React JS",
       "Razorpay dashboard",
@@ -170,6 +182,13 @@ export const projects = [
     description:
       "Developed a comprehensive full-stack website designed to enhance the job search experience. Users can search for job opportunities that align with their skills using advanced filters to find the most relevant matches. The platform allows users to request referrals for job positions, increasing their chances of getting noticed by potential employers. Users can also post job openings, making it easier to attract and hire talented individuals. Additionally, the website enables users to connect with other professionals, fostering networking and collaboration. Secure access is ensured through authentication for registered users.",
     image: jobireImage,
+    member: [
+      {
+        name: "Harsh Singh",
+        img: HeroImage,
+       
+        },
+      ],
     tags: ["React Js", "Firebase"],
     category: "web app",
     github: "https://github.com/Harsh-ngh/Jobbire",
@@ -182,12 +201,49 @@ export const projects = [
     description:
       "I developed a personal portfolio website to showcase my professional journey and skills. The About section provides a detailed overview of my background, interests, and goals. In the Experience section, I highlight my professional roles and accomplishments, showcasing the growth and impact I've made in various positions. The Projects section features a selection of my key projects, demonstrating my expertise and the range of my work. Lastly, the Contact section allows visitors to easily reach out to me for networking, collaboration, or inquiries. The portfolio is designed to be informative and engaging, reflecting my personal and professional brand.",
     image: portfolioImage,
+  
+      member: [
+      {
+        name: "Harsh Singh",
+        img: HeroImage,
+       
+        },
+      ],
     tags: [
       "React Js",
     ],
     category: "web app",
     github: "https://github.com/Harsh-ngh/Harsh-Portfolio",
     webapp: "https://harsh-portfolio-two.vercel.app/",
+  },
+   {
+    id: 4,
+    title: "Fall sense detection",
+    date: "Mar'24",
+    description:
+      "I developed a fall detection system using Arduino Uno and NodeMCU to monitor elderly individuals. The system detects falls using sensors and sends notifications instantly, enhancing safety and providing timely assistance.",
+    image: iot,
+    tags: [
+      "MPU 5060",
+      "Arduino UNO",
+    ],
+     category: "IOT",
+     member: [
+      {
+        name: "Harsh Singh",
+        img: HeroImage,
+       
+      },
+       {
+         name: "Roshan Birla",
+         img: birla,
+       },
+       {
+         name: "Vishesh Verma",
+         img: chhotu,
+       }
+    ],
+    
   },
 ];
 
