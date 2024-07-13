@@ -91,7 +91,7 @@ export const experiences = [
     role: "Web Developer Intern",
     company: "The Sparks Foundation",
     date: "June'24",
-    desc: "Developed an application for asking donation , for education of uderprivileged children",
+    desc: "Developed an application for asking donation, to help uderprivileged children.",
     skills: [
       "React JS",
       "Razorpay dashboard",
@@ -116,7 +116,7 @@ export const experiences = [
     role: "Technical Team Member",
     company: "IEEE SB NITP",
     date: "Sept'22-June'23",
-    desc: "Provided technical content s to be posted on social media , arranged and led technical quizzes and hackathons",
+    desc: "Provided technical contents to be posted on social media , arranged and led technical quizzes and hackathons.",
     skills: [
       "Leadership",
       "Communication",
