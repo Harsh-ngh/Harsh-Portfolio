@@ -14,12 +14,13 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile final-year Electronics and Communication Engineering (ECE) student with a passion for data structures and full-stack web development. Always eager to take on new challenges, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make meaningful contributions and achieve great things in the tech industry.",
+    "I am a motivated and versatile final-year Electronics and Communication Engineering student with a passion for data structures and full-stack web development. Always eager to take on new challenges, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make meaningful contributions and achieve great things in the tech industry.",
   github: "https://github.com/Harsh-ngh",
   resume:
     "https://drive.google.com/file/d/1bjRnip0erqzekbH_k9fdg_aZ5aYJqCaS/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/harsh-singh-b1abba249/",
   insta: "https://www.instagram.com/h_arsh__sengar?utm_source=qr&igsh=d28wMHRpbzZodHFk/",
+  xicon: "https://x.com/harsh_sing47218?t=KEmwf5xuce4vcvbLfieGRw&s=08",
 };
 
 export const skills = [
